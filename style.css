@@ -1,0 +1,43 @@
+/* CSS code for controlling appearance of HTML elements */
+
+h1 {
+color: orangered;
+font-size: 45px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+ body {
+  padding: 25 px;
+  background-color: white;
+}
+
+#tl, #tc, #tr, #cl, #cc, #cr, #bl, #bc, #br {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 45px;
+  text-align: center;
+}
+
+#resetBut {
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid blue;
+  margin: auto;
+  border-radius: 4px;
+}
+
+#turn {
+  color: blue;
+  font-size: 20px;
+}
+
+#instructions {
+  color: blue;
+  font-size: 17px;
+}
